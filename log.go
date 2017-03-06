@@ -7,7 +7,7 @@ import (
 )
 
 var stdoutFormat = logging.MustStringFormatter(
-	`%{color}%{time:15:04:05}:%{color:reset} %{message}`,
+	`%{color}%{time:15:04:05}: %{message} %{color:reset}`,
 )
 
 //log is an exported logging variable
