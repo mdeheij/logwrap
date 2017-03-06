@@ -3,7 +3,7 @@ package log
 import (
 	"os"
 
-	"github.com/op/go-logging"
+	"github.com/mdeheij/logwrap/go-logging"
 )
 
 var stdoutFormat = logging.MustStringFormatter(
